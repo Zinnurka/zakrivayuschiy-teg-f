@@ -23,12 +23,41 @@
 
 .header {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding-top: 100px;
   color: #000;
+}
+
+.header__logo-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--font-for-decoration);
+  text-transform: uppercase;
+}
+
+.header__logo-group__title {
+  font-size: 65px;
+}
+
+.header__logo-group__subtitile{
+  font-size: 23px;
+}
+
+.theme-menu {
+
+}
+
+.header__theme-menu {
+
 }
 
 .theme-menu__list {
   display: flex;
   flex-direction: column;
+}
+
+.theme-menu__item {
+
 }
