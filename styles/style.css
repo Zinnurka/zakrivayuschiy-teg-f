@@ -15,6 +15,20 @@
 */
 
 .page {
+  background-image: linear-gradient(#E7E7E7, #1A1A1A);
+  background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  color: #000;
+}
+
+.theme-menu__list {
+  display: flex;
+  flex-direction: column;
 }
