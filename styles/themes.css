@@ -4,3 +4,9 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+.theme-dark {
+  --header-background-color: #000;
+  --header-color: #00CC14;
+  --background-gradient-color: linear-gradient(#007F0C, #004306);
+}

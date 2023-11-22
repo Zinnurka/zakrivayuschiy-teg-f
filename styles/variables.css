@@ -3,4 +3,7 @@
 :root {
   --main-font: 'InterVariable', sans-serif;
   --font-for-decoration: 'PressStart2P', monospace;
+  --header-background-color: #fff;
+  --header-color: #000;
+  --background-gradient-color: linear-gradient(#E7E7E7, #1A1A1A);
 }
