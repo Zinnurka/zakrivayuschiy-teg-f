@@ -40,6 +40,10 @@
   background-color: var(--header-background-color);
 }
 
+.width-content {
+  width:clamp(376px, 50%, 700px);
+}
+
 .header__logo-group {
   display: flex;
   flex-direction: column;
@@ -51,11 +55,11 @@
 }
 
 .header__logo-group__title {
-  font-size: 65px;
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
 
 .header__logo-group__subtitile {
-  font-size: 23px;
+  font-size: clamp(0.875rem, 0.6762rem + 0.8459vw, 1.4375rem);
 }
 
 .theme-menu {
@@ -81,4 +85,16 @@
   font-size: 14px;
   text-transform: uppercase;
   background-color: transparent;
+}
+
+
+/* мобильный вид */
+
+
+@media(width<=376px) {
+
+    .width-content {
+      width: 100%;
+    }  
+
 }
