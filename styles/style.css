@@ -19,6 +19,8 @@
   flex-direction: column;
   align-items:center;
   background-image: var(--background-gradient-color);
+  background-position: center;
+  background-size: cover;
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
@@ -28,24 +30,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 22px;
   width: 700px;
   margin-top: 100px;
-  padding-bottom: 20px;
   border: 2px solid var(--header-color);
+  padding-bottom: 20px;
   color: var(--header-color);
-  background-color: var(--header-background-color);  
   font-family: var(--font-for-decoration);
-  gap: 22px;
+  background-color: var(--header-background-color);
 }
 
 .header__logo-group {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
+  gap: 17px; 
   padding-top: 138px;
   font-weight: 400;
   text-transform: uppercase;
-  gap: 17px;
 }
 
 .header__logo-group__title {
@@ -75,8 +77,8 @@
 }
 
 .theme-menu__button {
-  background-color: transparent;
   border: 0;
-  text-transform: uppercase;
   font-size: 14px;
+  text-transform: uppercase;
+  background-color: transparent;
 }
