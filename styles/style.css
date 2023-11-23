@@ -63,7 +63,7 @@
 }
 
 .theme-menu {
-
+  
 }
 
 .header__theme-menu {
@@ -79,6 +79,22 @@
 .theme-menu__item {
 
 }
+
+.theme-menu__item:hover {
+  opacity: 0.6;
+}
+
+.theme-menu__item:disabled  {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.theme-menu__item::before  {
+  content: '▶';
+  position: relative;
+  inset-inline-start: 19px;
+}
+
 
 .theme-menu__button {
   border: 0;
