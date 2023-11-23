@@ -5,8 +5,14 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
-.theme-dark {
+:root.theme-dark {
   --header-background-color: #000;
   --header-color: #00CC14;
   --background-gradient-color: linear-gradient(#007F0C, #004306);
+}
+
+:root.theme-light {
+  --header-background-color: #fff;
+  --header-color: #000;
+  --background-gradient-color: linear-gradient(#E7E7E7, #1A1A1A);
 }
