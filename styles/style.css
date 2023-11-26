@@ -124,7 +124,7 @@
   animation: left-shift-4px 0.5s infinite ease-in-out alternate-reverse;
 }
 
-/* Карточки */
+/* Посты */
 
 .content {
   display: flex;
@@ -133,7 +133,7 @@
 }
 
 .post {
-  font-family: InterVariable;
+  font-family: var(--main-font);
   font-weight: 400;  
   font-size: 18px;
   background-color: #fff;
@@ -147,9 +147,30 @@
 }
 
 .post_image {
-  inline-size: 100%;
-  background-image: url(../images/image.png);
+  position: relative;
 }
+
+.post_image__file {
+  inline-size: 100%;
+}
+
+.post_image__watermark {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  color: var(--header-color);
+  font-family: var(--font-for-decoration);
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.5;
+  mix-blend-mode: hard-light;
+  text-shadow:
+    -1px 0 var(--header-background-color),
+    0 1px var(--header-background-color),
+    1px 0 var(--header-background-color),
+    0 -1px var(--header-background-color);
+}
+
 
 .post_text {
   display: flex;
@@ -159,7 +180,9 @@
 }
 
 .post_buttom {
-  
+  display: flex;
+  justify-content:end;
+
 }
 
 /* Мобильный вид */
