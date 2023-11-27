@@ -185,6 +185,28 @@
 
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_button {
+  display: flex;
+  align-items:center;
+  gap: 8px;
+  padding: 15px 20px;
+  background-color: var(--header-background-color);
+  color: var(--header-color);
+  border: 2px solid var(--header-color);
+
+}
+
+.footer_button__text {
+  font-family: var(--font-for-decoration);
+  font-size: 14px;
+}
+
+
 /* Мобильный вид */
 
 @media(width<=375px) {
