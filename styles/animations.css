@@ -26,3 +26,106 @@
   }
 }
 
+/*увеличение сердца*/
+
+@keyframes scale-heart {
+  
+  from {
+    scale: 1;
+  }
+  
+  to {
+    scale: 1.5;
+  }
+}
+
+/*искры*/
+
+@keyframes opacity-sparks {
+  
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+
+/*контур*/
+
+.contour {
+  fill: var(--like-contour-color);
+  transition: fill 0.1s linear;
+}
+
+/*ядро*/
+
+.core {
+  fill: transparent;
+  transition: fill 0.3s 0.03s linear;
+}
+
+/*искры*/
+
+.sparks {
+  opacity: 0;
+}
+
+/*заливка*/
+
+.main-body {
+  fill: transparent;
+  transition: fill 0.3s linear;
+}
+
+/*ховер сердца*/
+
+.card__icon-button:hover .core {
+  fill: var(--like-contour-color);
+  transition: fill 0.3s linear;
+}
+
+.card__icon-button:hover .main-body {
+  fill: var(--like-contour-color);
+  transition: fill 0.3s 0.05s linear;
+}
+
+/*актив сердца*/
+
+.card__icon-button:active .core {
+  fill: var(--like-fill-color);
+  transition: fill 0.3s linear;
+}
+
+.card__icon-button:active .main-body {
+  fill: var(--like-fill-color);
+  transition: fill 0.3s 0.05s linear;
+}
+
+/*клик по сердца*/
+
+.like-icon.is-liked .core {
+  fill: var(--like-fill-color);
+  transition: fill 0.3s linear;
+}
+
+.like-icon.is-liked .main-body {
+  fill: var(--like-fill-color);
+  transition: fill 0.3s 0.05s linear;
+}
+
+.like-icon.is-liked .contour {
+  fill: var(--like-fill-color);
+  transition: fill 0.3s 0.06s linear;
+}
+
+.like-icon.is-liked .sparks {
+  animation: opacity-sparks 0.3s 0.3s ease-in alternate;
+}
+
+.like-icon.is-liked .heart {
+  transform-origin: center center;
+  animation: scale-heart 0.3s 0.1s ease-in alternate;
+}
