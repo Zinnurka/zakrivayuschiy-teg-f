@@ -51,7 +51,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 17px; 
+  gap: 17px;
   padding-top: 138px;
   font-weight: 400;
   text-transform: uppercase;
@@ -102,12 +102,12 @@
   outline: none;
 }
 
-.theme-menu__button:disabled  {
+.theme-menu__button:disabled {
   opacity: 0.6;
   pointer-events: none;
 }
 
-.theme-menu__button:disabled::before  {
+.theme-menu__button:disabled::before {
   content: '▶';
   position: absolute;
   left: -13px;
@@ -124,7 +124,7 @@
 
 .post {
   font-family: var(--main-font);
-  font-weight: 400;  
+  font-weight: 400;
   font-size: 18px;
   background-color: #fff;
   color: #000;
@@ -159,6 +159,16 @@
     0 1px var(--header-background-color),
     1px 0 var(--header-background-color),
     0 -1px var(--header-background-color);
+}
+
+@supports((text-stroke: 1px var(--header-background-color))
+or (-webkit-text-stroke: 1px var(--header-background-color))) {
+  
+  .main__card-image-watermark {
+      text-shadow: none;
+      -webkit-text-stroke: 1px var(--header-background-color);
+      text-stroke: 1px var(--header-background-color);
+  }
 }
 
 .post_text {
@@ -233,7 +243,7 @@
 }
 
 .footer_button__icon {
-  inline-size: 28px;  
+  inline-size: 28px;
   height: 20px;
   width: 20px;
   z-index: 1000;
@@ -252,7 +262,7 @@
   width: 357px;
   background-color: var(--header-background-color);
   color: var(--header-color);
-  padding: 30px 40px;  
+  padding: 30px 40px;
   font-family: var(--font-for-decoration);
   font-size: 14px;
   line-height: 21px;
@@ -282,7 +292,7 @@
 
 /* Общие стили */
 
-.button__common_style {  
+.button__common_style {
   color: var(--header-color);
   position: relative;
   border: 2px solid var(--header-color);
@@ -337,7 +347,7 @@
   filter: blur(0.5rem);
 }
 
-.filter-bright {
+.filter-bright-opacity {
   filter: hue-rotate(98deg) blur(0.05rem) saturate(90%) brightness(90%) opacity(70%);
 }
 
@@ -350,7 +360,7 @@
       width: 100%;
     }
 
-    .dialog {      
+    .dialog {   
       width: 341px;
     }
 

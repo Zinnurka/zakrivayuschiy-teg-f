@@ -7,7 +7,7 @@
   --header-color: #000;
   --background-gradient-color: repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
   repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
-  linear-gradient(#e7e7e7, #1a1a1a); 
+  linear-gradient(#e7e7e7, #1a1a1a);
   --like-contour-color: var( --header-color);
   --like-fill-color: #f00;
   --button-text-color: #fff;
