@@ -25,6 +25,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-variation-settings: 'wght' var(--text-font-weight);
 }
 
 /* Хидер */
@@ -132,7 +133,7 @@
 }
 
 .post_title {
-  font-weight: 700;
+  font-variation-settings: 'wght' var(--title-font-weight);
   padding: 5px 9px;
 }
 
@@ -163,7 +164,7 @@
 
 @supports((text-stroke: 1px var(--header-background-color))
 or (-webkit-text-stroke: 1px var(--header-background-color))) {
-  
+
   .main__card-image-watermark {
       text-shadow: none;
       -webkit-text-stroke: 1px var(--header-background-color);
@@ -360,9 +361,8 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
       width: 100%;
     }
 
-    .dialog {   
+    .dialog { 
       width: 341px;
     }
 
 }
-
