@@ -133,7 +133,7 @@
 
 .post_title {
   font-weight: 700;
-  padding: 5px 10px;
+  padding: 5px 9px;
 }
 
 .post_image {
@@ -234,8 +234,8 @@
 
 .footer_button__icon {
   inline-size: 28px;  
-  height: 40px;
-  width: 40px;
+  height: 20px;
+  width: 20px;
   z-index: 1000;
 }
 
