@@ -311,7 +311,35 @@
   box-shadow: 4px 4px 0 0 var(--header-color);
 }
 
+/* Фильтры */
 
+.filter-gray {
+  filter: grayscale(0.7);
+}
+
+.filter-saturate {
+  filter: saturate(300%);
+}
+
+.filter-hue {
+  filter: hue-rotate(30deg);
+}
+
+.filter-invert {
+  filter: invert(0.99);
+}
+
+.filter-sepia {
+  filter: sepia(90%);
+}
+
+.filter-blur {
+  filter: blur(0.5rem);
+}
+
+.filter-bright {
+  filter: hue-rotate(98deg) blur(0.05rem) saturate(90%) brightness(90%) opacity(70%);
+}
 
 
 /* Мобильный вид */
