@@ -14,6 +14,7 @@
   /*цвета сердца*/
   --like-contour-color: var(--accent-color);
   --like-fill-color: #f00;
+  --button-text-color: #00CC14;
 }
 
 :root.theme-light {
@@ -25,4 +26,5 @@
   /*цвета сердца*/
   --like-contour-color: var(--header-color);
   --like-fill-color: #f00;
+  --button-text-color: #fff;
 }
