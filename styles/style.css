@@ -356,6 +356,10 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 /* Мобильный вид */
 
 @media(width<=375px) {
+    
+    .header__logo-group {
+      padding-top: 120px;
+    }
 
     .width-content {
       width: 100%;
@@ -363,6 +367,15 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 
     .dialog {
       width: 341px;
+    }
+
+    .footer_button {
+      flex-direction: column;
+    }
+
+    .footer_button__icon {
+      height: 30px;
+      width: 30px;
     }
 
 }
