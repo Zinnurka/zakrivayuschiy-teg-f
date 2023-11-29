@@ -26,7 +26,7 @@
   }
 }
 
-/*увеличение сердца*/
+/* Увеличение сердца */
 
 @keyframes scale-heart {
   
@@ -39,7 +39,7 @@
   }
 }
 
-/*искры*/
+/* Искры сердца */
 
 @keyframes opacity-sparks {
   
@@ -53,34 +53,34 @@
 }
 
 
-/*контур*/
+/* Контур сердца */
 
 .contour {
   fill: var(--like-contour-color);
   transition: fill 0.1s linear;
 }
 
-/*ядро*/
+/* Ядро сердца */
 
 .core {
   fill: transparent;
   transition: fill 0.3s 0.03s linear;
 }
 
-/*искры*/
+/* Искры сердца */
 
 .sparks {
   opacity: 0;
 }
 
-/*заливка*/
+/*Заливка сердца */
 
 .main-body {
   fill: transparent;
   transition: fill 0.3s linear;
 }
 
-/*ховер сердца*/
+/* Ховер сердца */
 
 .card__icon-button:hover .core {
   fill: var(--like-contour-color);
@@ -92,7 +92,7 @@
   transition: fill 0.3s 0.05s linear;
 }
 
-/*актив сердца*/
+/* Актив сердца */
 
 .card__icon-button:active .core {
   fill: var(--like-fill-color);
@@ -104,7 +104,7 @@
   transition: fill 0.3s 0.05s linear;
 }
 
-/*клик по сердца*/
+/* Клик по сердцу */
 
 .like-icon.is-liked .core {
   fill: var(--like-fill-color);
