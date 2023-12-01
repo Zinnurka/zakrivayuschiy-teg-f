@@ -112,6 +112,7 @@
   content: '▶';
   position: absolute;
   left: -13px;
+  top:auto;
   animation: left-shift-4px 0.5s infinite ease-in-out alternate;
 }
 
