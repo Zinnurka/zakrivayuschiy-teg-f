@@ -246,7 +246,6 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 }
 
 .footer_button__icon {
-  inline-size: 28px;
   height: 20px;
   width: 20px;
   z-index: 1000;
@@ -263,26 +262,28 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
   width: 357px;
   background-color: var(--header-background-color);
   color: var(--header-color);
-  padding: 30px 40px;
+  padding: 20px 30px;
   font-family: var(--font-for-decoration);
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 .dialog[open] {
   display: flex;
 }
 
-.dialog::backdrop {
+dialog::backdrop {
   opacity: 0.75;
-  background-color: var(--header-color);
+  background-color: var(--header-color, #000);
+  /* Сделано по заданию , но не понятно почему не отрабатывает */
 }
 
 .dialog_content {
   display: flex;
   gap: 20px;
-  
+  align-items:center;
 }
 
 .dialog_button {
@@ -290,6 +291,14 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
   border: 2px solid var(--header-color);
   background-color:transparent;
   text-transform: uppercase;
+  width: 293;
+}
+
+.dialog_button__icon {
+  display: flex;
+  height: 90px;
+  width: 90px;
+  z-index: 1000;
 }
 
 /* Общие стили */
@@ -321,6 +330,10 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 
 .button__common_style:focus-visible {
   box-shadow: 4px 4px 0 0 var(--header-color);
+}
+
+button {
+  cursor: pointer;
 }
 
 /* Фильтры */
