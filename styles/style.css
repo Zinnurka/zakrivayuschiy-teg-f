@@ -287,6 +287,7 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
   padding: 9px 17px;
   border: 2px solid var(--header-color);
   background-color:transparent;
+  text-transform: uppercase;
 }
 
 /* Общие стили */
