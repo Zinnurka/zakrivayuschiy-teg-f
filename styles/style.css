@@ -99,8 +99,8 @@
 }
 
 .theme-menu__button:focus {
-  opacity: 0.6;
   outline: none;
+  opacity: 0.6;
 }
 
 .theme-menu__button:disabled {
@@ -111,8 +111,8 @@
 .theme-menu__button:disabled::before {
   content: '▶';
   position: absolute;
-  left: -13px;
   top:auto;
+  left: -13px;
   animation: left-shift-4px 0.5s infinite ease-in-out alternate;
 }
 
@@ -125,18 +125,18 @@
 }
 
 .post {
+  border: 2px solid var(--header-color);
+  color: var(--header-color);
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 18px;
   background-color: var(--header-background-color);
-  color: var(--header-color);
-  border: 2px solid var(--header-color);
 }
 
 .post_title {
-  font-variation-settings: 'wght' var(--title-font-weight);
-  padding: 5px 9px;
   border-bottom: 2px solid var(--header-color);
+  padding: 5px 9px;
+  font-variation-settings: 'wght' var(--title-font-weight);
 }
 
 .post_image {
@@ -149,19 +149,19 @@
 
 .post_image__watermark {
   position: absolute;
-  right: 25px;
   top: 30px;
+  right: 25px;
+  opacity: 0.5;
   color: var(--header-color);
   font-family: var(--font-for-decoration);
-  text-transform: uppercase;
   font-size: 14px;
-  opacity: 0.5;
-  mix-blend-mode: hard-light;
+  text-transform: uppercase;
   text-shadow:
     -1px 0 var(--header-background-color),
     0 1px var(--header-background-color),
     1px 0 var(--header-background-color),
     0 -1px var(--header-background-color);
+  mix-blend-mode: hard-light;
 }
 
 @supports((text-stroke: 1px var(--header-background-color))
@@ -186,8 +186,8 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
   display: flex;
   justify-content:end;
   align-items: center;
-  padding: 0 25px 20px 0;
   gap: 5px;
+  padding: 0 25px 20px 0;
 }
 
 .post_buttom__like {
@@ -206,10 +206,10 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
   cursor: pointer;
 }
 
-.card__icon-button {
-  min-block-size: 38px;  
+.card__icon-button {  
   transition: border 0.3s;
   transition-timing-function: ease;
+  min-block-size: 38px;
 }
 
 .card__icon-button:focus {
@@ -244,9 +244,9 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 }
 
 .footer_button__icon {
-  height: 30px;
+  z-index: 1000;
   width: 30px;
-  z-index: 1000;  
+  height: 30px;  
   mix-blend-mode: difference;
 }
 
@@ -255,18 +255,18 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 .dialog {
   position: fixed;
   top: 30%;
-  align-items: center;
+  z-index: 2;
   flex-direction: column;
+  align-items: center;
   gap: 20px;
   width: 357px;
-  background-color: var(--header-background-color);
-  color: var(--header-color);
   padding: 20px 30px;
+  color: var(--header-color);
   font-family: var(--font-for-decoration);
   font-size: 14px;
   line-height: 21px;
   text-transform: uppercase;
-  z-index: 2;
+  background-color: var(--header-background-color);
 }
 
 .dialog[open] {
@@ -280,32 +280,32 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 
 .dialog_content {
   display: flex;
-  gap: 20px;
   align-items:center;
+  gap: 20px;
 }
 
 .dialog_button {
-  padding: 9px 17px;
-  border: 2px solid var(--header-color);
-  background-color:transparent;
-  text-transform: uppercase;
   width: 293;
+  border: 2px solid var(--header-color);
+  padding: 9px 17px;
+  text-transform: uppercase;
+  background-color:transparent;
 }
 
 .dialog_button__icon {
-  display: flex;
-  height: 90px;
-  width: 90px;
   z-index: 1000;
+  display: flex;
+  width: 90px;
+  height: 90px;
   mix-blend-mode: difference;
 }
 
 /* Общие стили */
 
 .button__common_style {
-  color: var(--header-color);
   position: relative;
   border: 2px solid var(--header-color);
+  color: var(--header-color);
   background-color: var(--header-background-color);
   transition: box-shadow .3s ease;
 }
@@ -314,9 +314,9 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
   content: '';
   position: absolute;
   inset: 0;
-  inline-size: 0%;
   background-color: var(--header-color);
   transition: inline-size 0.5s ease-in-out;
+  inline-size: 0%;
 }
 
 .button__common_style:hover::after {
@@ -387,13 +387,13 @@ button {
     }
 
     .footer_button__icon {
-      height: 30px;
       width: 30px;
+      height: 30px;
     }
 
     .post_image__watermark {
-      right: 10px;
       top: 25px;
+      right: 10px;
     }
 
 }
