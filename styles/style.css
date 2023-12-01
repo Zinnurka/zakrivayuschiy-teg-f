@@ -59,8 +59,6 @@
 }
 
 .header__logo-group__title {
-  display: inline;
-  align-items:center;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
 
@@ -279,7 +277,6 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 .dialog::backdrop {
   opacity: 0.75;
   background-color: var(--header-color, #000);
-  /* Сделано по заданию , но не понятно почему не отрабатывает */
 }
 
 .dialog_content {
