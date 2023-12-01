@@ -206,8 +206,6 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 }
 
 .card__icon-button {
-  border: 2px solid transparent;
-  padding-block-start: 5px;
   min-block-size: 38px;  
   transition: border 0.3s;
   transition-timing-function: ease;
