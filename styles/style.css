@@ -112,7 +112,7 @@
   content: '▶';
   position: absolute;
   left: -13px;
-  animation: left-shift-4px 0.5s infinite ease-in-out alternate-reverse;
+  animation: left-shift-4px 0.5s infinite ease-in-out alternate;
 }
 
 /* Посты */
