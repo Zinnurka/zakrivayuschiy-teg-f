@@ -208,18 +208,18 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 .card__icon-button {
   border: 2px solid transparent;
   padding-block-start: 5px;
-  min-block-size: 38px;
+  min-block-size: 38px;  
+  transition: border 0.3s;
+  transition-timing-function: ease;
 }
 
 .card__icon-button:focus {
-  outline: none;
+  outline: none;  
 }
 
 .card__icon-button:focus-visible {
   border: 2px solid var(--header-color, #000);
   outline: none;
-  transition: border 0.3s;
-  transition-timing-function: ease;
 }
 
 /* Футер */
