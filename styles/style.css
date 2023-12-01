@@ -249,10 +249,7 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
   inline-size: 28px;
   height: 20px;
   width: 20px;
-  z-index: 1000;
-}
-
-.footer_button__icon:hover {
+  z-index: 1000;  
   mix-blend-mode: difference;
 }
 
