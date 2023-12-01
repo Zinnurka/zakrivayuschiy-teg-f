@@ -255,6 +255,8 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
 /* Диалоговое окно */
 
 .dialog {
+  position: fixed;
+  top: 30%;
   align-items: center;
   flex-direction: column;
   gap: 20px;
