@@ -136,6 +136,7 @@
 .post_title {
   font-variation-settings: 'wght' var(--title-font-weight);
   padding: 5px 9px;
+  border-bottom: 2px solid var(--header-color);
 }
 
 .post_image {
@@ -388,6 +389,11 @@ button {
     .footer_button__icon {
       height: 30px;
       width: 30px;
+    }
+
+    .post_image__watermark {
+      right: 10px;
+      top: 25px;
     }
 
 }
