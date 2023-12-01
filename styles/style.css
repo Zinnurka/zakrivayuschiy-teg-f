@@ -178,6 +178,7 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
   flex-direction: column;
   gap: 30px;
   padding: 20px 25px;
+  font-variation-settings: normal;
 }
 
 .post_buttom {
