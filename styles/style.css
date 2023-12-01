@@ -59,6 +59,8 @@
 }
 
 .header__logo-group__title {
+  display: inline;
+  align-items:center;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
 }
 
@@ -128,8 +130,8 @@
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 18px;
-  background-color: #fff;
-  color: #000;
+  background-color: var(--header-background-color);
+  color: var(--header-color);
   border: 2px solid var(--header-color);
 }
 
