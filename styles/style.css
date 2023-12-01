@@ -274,7 +274,7 @@ or (-webkit-text-stroke: 1px var(--header-background-color))) {
   display: flex;
 }
 
-dialog::backdrop {
+.dialog::backdrop {
   opacity: 0.75;
   background-color: var(--header-color, #000);
   /* Сделано по заданию , но не понятно почему не отрабатывает */
