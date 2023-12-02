@@ -374,6 +374,7 @@ button {
 /* Мобильный вид */
 
 @media (width<=375px) {
+
   .header__logo-group {
     padding-top: 120px;
   }
