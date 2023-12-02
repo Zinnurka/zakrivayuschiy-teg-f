@@ -49,7 +49,7 @@ button {
 }
 
 .width-content {
-  width: clamp(376px, 50%, 700px);
+  width: clamp(376px, 60%, 700px);
 }
 
 .header__logo-group {
@@ -234,6 +234,7 @@ button {
 .footer {
   display: flex;
   justify-content: center;
+  padding-bottom: 100px;
 }
 
 .footer_button {
