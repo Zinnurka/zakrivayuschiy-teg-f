@@ -70,11 +70,13 @@ button {
   font-size: clamp(0.875rem, 0.6762rem + 0.8459vw, 1.4375rem);
 }
 
+
 .theme-menu__list {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  transform: translateX(11px)
 }
 
 .theme-menu__button {
