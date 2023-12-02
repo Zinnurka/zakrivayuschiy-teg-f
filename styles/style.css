@@ -215,7 +215,7 @@ button {
 .card__icon-button {
   transition: border 0.3s;
   transition-timing-function: ease;
-  min-block-size: 38px;
+  max-block-size: 38px;
 }
 
 .card__icon-button:focus {
