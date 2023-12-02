@@ -337,7 +337,7 @@ button {
 }
 
 .button__common_style:focus-visible {
-  box-shadow: 4px 4px 0 0 var(--header-color);
+  box-shadow: 2px 2px 0 0 var(--header-color);
 }
 
 /* Фильтры */
