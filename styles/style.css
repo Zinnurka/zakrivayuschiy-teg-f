@@ -272,6 +272,7 @@ button {
   line-height: 21px;
   text-transform: uppercase;
   background-color: var(--header-background-color);
+  overflow: hidden;  
 }
 
 .dialog[open] {
@@ -290,7 +291,7 @@ button {
 }
 
 .dialog_button {
-  width: 293;
+  width: 293px;
   border: 2px solid var(--header-color);
   padding: 9px 17px;
   text-transform: uppercase;
@@ -302,7 +303,7 @@ button {
   display: flex;
   width: 90px;
   height: 90px;
-  mix-blend-mode: difference;
+  mix-blend-mode: difference;  
 }
 
 /* Общие стили */
