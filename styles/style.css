@@ -246,6 +246,7 @@ button {
   z-index: 1000;
   font-family: var(--font-for-decoration);
   font-size: 14px;
+  color: var(--button-text-color);
   mix-blend-mode: difference;
 }
 
@@ -253,6 +254,7 @@ button {
   z-index: 1000;
   width: 30px;
   height: 30px;
+  color:var(--button-text-color);
   mix-blend-mode: difference;
 }
 
