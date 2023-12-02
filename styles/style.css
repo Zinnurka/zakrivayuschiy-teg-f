@@ -185,7 +185,7 @@ button {
   flex-direction: column;
   gap: 30px;
   padding: 20px 25px;
-  font-variation-settings: normal;
+  font-variation-settings: 'wght' var(--text-font-weight);
 }
 
 .post_buttom {

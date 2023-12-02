@@ -8,6 +8,8 @@
 /* Работа автоматической темы не настроена в проекте - не совсем понял, что именно не настроено. У меня переключается. https://ibb.co/hFNhr7G */
 
 :root.theme-dark {
+  --title-font-weight: 785;
+  --text-font-weight: 465;  
   --header-background-color: #000;
   --header-color: #00CC14;
   --background-gradient-color: repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
@@ -22,6 +24,8 @@
 @media (prefers-color-scheme: dark) {
 
   :root {
+    --title-font-weight: 785;
+    --text-font-weight: 465;
     --header-background-color: #000;
     --header-color: #00CC14;
     --background-gradient-color: repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
@@ -36,6 +40,8 @@
 }
 
 :root.theme-light {
+  --title-font-weight: 700;
+  --text-font-weight: 400;
   --header-background-color: #fff;
   --header-color: #000;
   --background-gradient-color: repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
@@ -50,6 +56,8 @@
 @media (prefers-color-scheme: light) {
 
   :root {
+    --title-font-weight: 700;
+    --text-font-weight: 400;
     --header-background-color: #fff;
     --header-color: #000;
     --title-font-weight: 700;
