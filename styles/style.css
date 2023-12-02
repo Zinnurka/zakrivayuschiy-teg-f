@@ -141,6 +141,7 @@ button {
   border-bottom: 2px solid var(--header-color);
   padding: 5px 9px;
   font-variation-settings: 'wght' var(--title-font-weight);
+  font-size: 18px;
 }
 
 .post_image {
