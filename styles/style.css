@@ -310,9 +310,7 @@ button {
 .dialog_button__icon {
   z-index: 1000;
   display: flex;
-  width: 90px;
-  height: 90px;
-  mix-blend-mode: difference;
+  width: 40%;
 }
 
 /* Общие стили */
