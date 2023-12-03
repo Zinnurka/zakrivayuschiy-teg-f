@@ -8,7 +8,7 @@
 
 :root.theme-dark {
   --title-font-weight: 785;
-  --text-font-weight: 465;  
+  --text-font-weight: 465;
   --header-background-color: #000;
   --header-color: #00CC14;
   --background-gradient-color: repeating-linear-gradient(#000 0 2px, transparent 2px 4px),

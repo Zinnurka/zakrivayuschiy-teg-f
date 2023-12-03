@@ -281,7 +281,7 @@ button {
   line-height: 21px;
   text-transform: uppercase;
   background-color: var(--header-background-color);
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 .dialog[open] {
@@ -312,7 +312,7 @@ button {
   display: flex;
   width: 90px;
   height: 90px;
-  mix-blend-mode: difference;  
+  mix-blend-mode: difference;
 }
 
 /* Общие стили */
