@@ -316,6 +316,9 @@ button {
 /* Общие стили */
 
 .button__common_style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
   border: 2px solid var(--header-color);
   color: var(--header-color);
