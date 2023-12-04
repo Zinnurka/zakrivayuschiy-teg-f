@@ -278,6 +278,7 @@ button {
   align-items: center;
   gap: 20px;
   width: 357px;
+  height: 193px;
   padding: 20px 30px;
   color: var(--header-color);
   font-family: var(--font-for-decoration);
@@ -304,7 +305,6 @@ button {
 }
 
 .dialog_button {
-  width: 293px;
   border: 2px solid var(--header-color);
   padding: 9px 17px;
   text-transform: uppercase;
@@ -396,6 +396,12 @@ button {
 
   .dialog {
     width: 341px;
+    height: 195px;
+    padding: 30px;
+  }
+
+  .dialog_content {
+    gap: 14px;
   }
 
   .footer_button {
@@ -408,8 +414,13 @@ button {
     height: 40px;
   }
 
+  .dialog_button__icon {
+    width: 45%;
+  }
+
   .post_image__watermark {
     top: 25px;
     right: 10px;
   }
+
 }
