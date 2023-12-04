@@ -407,7 +407,8 @@ button {
 
   .footer_button {
     flex-direction: column;  
-    gap: 5px;
+    gap: 1px;
+    padding: 13px 20px;
   }
 
   .footer_button__icon {
