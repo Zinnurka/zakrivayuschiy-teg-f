@@ -406,7 +406,7 @@ button {
   }
 
   .footer_button {
-    flex-direction: column;    
+    flex-direction: column;  
     gap: 5px;
   }
 
