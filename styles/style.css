@@ -189,8 +189,9 @@ button {
   display: flex;
   flex-direction: column;
   gap: 27px;
-  padding: 20px 25px;
+  padding: 23px 25px;
   font-variation-settings: 'wght' var(--text-font-weight);
+  line-height: 21px;
 }
 
 .post_buttom {
@@ -198,7 +199,7 @@ button {
   justify-content: end;
   align-items: center;
   gap: 5px;
-  padding: 0 25px 20px 0;
+  padding:5px 25px 25px 0;
 }
 
 .post_buttom__like {
