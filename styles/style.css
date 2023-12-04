@@ -218,6 +218,9 @@ button {
 }
 
 .card__icon-button {
+  display: flex;
+  align-items:center;
+  justify-content: center;
   transition: border 0.3s;
   transition-timing-function: ease;
   max-block-size: 38px;
