@@ -159,7 +159,7 @@ button {
 
 .post_image__watermark {
   position: absolute;
-  top: 30px;
+  top: 25px;
   right: 25px;
   opacity: 0.5;
   color: var(--header-color);
