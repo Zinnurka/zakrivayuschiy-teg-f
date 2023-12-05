@@ -277,7 +277,6 @@ button {
   flex-direction: column;
   gap: 20px;
   width: 357px;
-  height: 193px;
   padding: 20px 30px;
   color: var(--header-color);
   font-family: var(--font-for-decoration);
@@ -285,7 +284,6 @@ button {
   line-height: 21px;
   text-transform: uppercase;
   background-color: var(--header-background-color);
-  overflow: hidden;
   border: 2px solid ;
 }
 
